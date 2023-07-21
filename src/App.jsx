@@ -7,19 +7,14 @@ function App() {
 
   return (
     <>
-      <select type="text" onBlur={(e)=> setNomeUsuario(e.target.value)}>
-      <option value="William-WSilva">William-WSilva</option>
-      <option value="github-readme-stats">github-readme-stats</option>
-      <option value="app-ideas">app-ideas</option>
-      </select>
-      {nomeUsuario.length > 4 &&(
         <>
-          <Perfil nomeUsuario={nomeUsuario} />
+          <Perfil
+          nomeUsuario={nomeUsuario}
+          setNomeUsuario={setNomeUsuario} /> {/* Passando a função setNomeUsuario como prop */}
           <ReposList nomeUsuario={nomeUsuario} />
         </>
-      )}
     </>
   )
 }
 
-export default App
+export default App;

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 180px 0 40px;
+    padding: 100px 0 100px;
     margin-bottom: 80px;
 }
 
@@ -18,4 +18,38 @@
 .name{
     font-size: 18px;
     color:  var(--corSecundaria);
+}
+
+.inputFind{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+   
+    
+}
+
+.selectRepos{
+    background-color: var(--corPrincipal);
+    color:  var(--corSecundaria);
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    height: 30px;
+    margin: 1px; 
+}
+
+.divFind{
+    position: relative;
+}
+
+.buttonFind{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    top: 10px;
+    margin-left: 8px;
+    cursor: pointer;
 }
