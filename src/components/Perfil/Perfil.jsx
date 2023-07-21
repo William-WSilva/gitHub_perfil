@@ -4,7 +4,7 @@ import styles from "./Perfil.module.css";
 const options = [
   { value: "", label: "Busque ou Selecione Github" },
   { value: "William-WSilva", label: "William-WSilva" },
-  { value: "github-readme-stats", label: "github-readme-stats" },
+  { value: "bootstrap", label: "bootstrap" },
   { value: "app-ideas", label: "app-ideas" },
 ];
 
